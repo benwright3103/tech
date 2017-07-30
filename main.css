@@ -77,3 +77,12 @@ body{
   background: #1F2B45;
   min-height: 100px;
 }
+
+
+/*Full Page Job Post*/
+.blog-header{
+  margin-top: 20px;
+}
+.side-co-logo{
+  width: 60%;
+}
