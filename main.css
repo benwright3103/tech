@@ -1,0 +1,88 @@
+/*
+colors
+navy- #1F2B45
+green- #77B173
+light blue - #9FD8DA
+light gray - #E8E9EA
+*/
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
+
+
+
+
+body{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Header*/
+.navbar{
+  background: #1F2B45;
+
+}
+#navLogo{
+  width: 30%;
+  padding-top: 20px;
+}
+
+
+/*Map Section*/
+#kyMap{
+  width: 80%;
+  height: auto;
+}
+
+#mapSection{
+  background-image: url(img/kyBarn.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+
+}
+
+/*Card Section*/
+.card-deck{
+  background: #E8E9EA;
+  padding: 20px 20px;
+}
+.card-img-top{
+  margin-top: 5px;
+  width: 25%;
+
+}
+.card{
+  border-radius: 1px;
+  margin-bottom: 5px;
+  box-shadow: 5px gray;
+
+}
+.seperator{
+  height: 10px;
+  width: 50%;
+  background: #77B173;
+  margin-top: 10px;
+}
+.card-title{
+  text-align: center;
+  font-weight: 700;
+  color: #1F2B45;
+}
+.card-text{
+  text-align: center;
+  color: #1F2B45;
+}
+
+.footer{
+  background: #1F2B45;
+  min-height: 100px;
+}
+
+
+/*Full Page Job Post*/
+.blog-header{
+  margin-top: 20px;
+}
+.side-co-logo{
+  width: 60%;
+}
