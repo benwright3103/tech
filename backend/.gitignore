@@ -14,3 +14,4 @@ backend/Vagrantfile
 backend/techssh
 backend/techssh.pub
 backend/techssh.pub.pub
+../.DS_Store

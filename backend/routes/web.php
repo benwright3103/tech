@@ -12,5 +12,20 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+	$jobs = DB::table('job_cards')->get();
+
+    return view('index', compact('jobs'));
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/job', function () {
+    return view('fullJobPost');
+});
+
+Route::get('/postjob', function () {
+    return view('postForm');
 });
